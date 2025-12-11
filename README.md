@@ -41,5 +41,3 @@ Recursion – Recursive problem solving, recursion trees, and basic recursion pa
 Backtracking – N-Queens, subsets, permutations, and constraint satisfaction problems.
 
 Bit Manipulation – XOR, AND, OR tricks, subset generation with bits, single number problems.
-
-Each solution contains comments explaining the logic and approach
