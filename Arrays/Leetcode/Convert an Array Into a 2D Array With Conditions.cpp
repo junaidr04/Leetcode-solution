@@ -1,3 +1,9 @@
+//Problem: Convert an Array Into a 2D Array With Conditions
+// Platform: LeetCode
+//Link: https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/
+//Time: O(n) [Frequency count → O(n), Placement loop → O(n)]
+//Space: O(n) [count map → O(n), placed map → O(n), result matrix → O(n)]
+	​
 class Solution
 {
 public:
@@ -25,4 +31,5 @@ public:
         }
         return result;
     }
+
 };
