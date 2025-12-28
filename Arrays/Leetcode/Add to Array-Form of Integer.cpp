@@ -1,3 +1,9 @@
+///Problem: Add to Array-Form of Integer
+//Platform: LeetCode
+//Link: https://leetcode.com/problems/add-to-array-form-of-integer/description/
+//Time: O(n), Space: O(n)
+
+
 class Solution
 {
 public:
@@ -18,4 +24,5 @@ public:
         reverse(ans.begin(), ans.end());
         return ans;
     }
+
 };
