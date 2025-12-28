@@ -1,3 +1,10 @@
+// Problem: Check if Array Is Sorted and Rotated
+// Platform: LeetCode
+// Link: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+//Time: O(n) [Loop traverses the array only once]
+//Space: O(1)​ [No extra data structure]
+
+
 class Solution
 {
 public:
@@ -17,4 +24,5 @@ public:
         }
         return true;
     }
+
 };
