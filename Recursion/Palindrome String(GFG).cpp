@@ -1,3 +1,9 @@
+///Problem: Palindrome String
+//Platform: GeeksForGeeks
+//Link: https://www.geeksforgeeks.org/problems/palindrome-string0817/1
+//Time: O(n) [Compare two characters in each recursion call, Total recursion depth ≈ n/2],  Space: O(n) [Using recursion call stack, Stack depth ≈ n/2]
+
+
 class Solution
 {
 public:
@@ -13,4 +19,5 @@ public:
     {
         return chk(s, 0, s.length() - 1);
     }
+
 };
