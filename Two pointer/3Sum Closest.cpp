@@ -12,7 +12,7 @@ public:
         sort(nums.begin(), nums.end());
         int bestSum = nums[0] + nums[1] + nums[2];
         int n = nums.size();
-        for (int i = 0; i < n - 2; i++)
+        for (int i = 0; i < n - 2; i++)   //i er por jeno aro 2 ta number thake
         {
             int l = i + 1, r = n - 1;
             while (l < r)
@@ -38,4 +38,5 @@ public:
         }
         return bestSum;
     }
+
 };
